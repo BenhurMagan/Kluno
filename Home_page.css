@@ -1,40 +1,48 @@
 .parallax {
-    /* Kluno Logo */
-    background-image: url();
+  /* Kluno Logo */
+  background-image: url();
   
-    /* Set a specific height for the Logo */
-    min-height: 750px;
+  /* Set a specific height for the Logo */
+  min-height: 500px;
   
-    /* Parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  /* Parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
   /* Navigation Bar */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #d8c3a5;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
   
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li img {
+  height: 14.24px;
+  width: 32px;
+}
   
   /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #111;
-  }
+li a:hover {
+  background-color: #111;
+}
