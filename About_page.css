@@ -22,34 +22,34 @@ body, html{
     /* Navigation Bar */
   
   ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #d8c3a5;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-  }
-    
-  li {
-    float: left;
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
   
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 1.4vh 4vw;
-    text-decoration: none;
-  }
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 2vh 4vw;
+  text-decoration: none;
+}
+
+li img {
+  height: 14.24px;
+  width: 32px;
+}
   
-  li img {
-    height: 14.24px;
-    width: 32px;
-  }
-    
-    /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #111;
-  }
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #aaaaaa;
+}

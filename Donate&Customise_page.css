@@ -1,55 +1,55 @@
 body, html{
-    height: 100%;
-    margin: 0;
-  }
+  height: 100%;
+  margin: 0;
+}
   
-  .parallax {
-    /* Image */
-    background-image: url(https://clothesbinfranchise.com/wp-content/uploads/2022/07/clothes-recycle.png);
-    /* Set a specific height for the Image */
-    min-height: 100vh;
-  }
+.parallax {
+  /* Image */
+  background-image: url(https://clothesbinfranchise.com/wp-content/uploads/2022/07/clothes-recycle.png);
+  /* Set a specific height for the Image */
+  min-height: 100vh;
+}
+
+  /* Parallax scrolling effect */
+.parallax{
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+  /* Navigation Bar */
   
-    /* Parallax scrolling effect */
-  .parallax{
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 50%;
-  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
   
-    /* Navigation Bar */
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 2vh 4vw;
+  text-decoration: none;
+}
+
+li img {
+  height: 14.24px;
+  width: 32px;
+}
   
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #d8c3a5;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-  }
-    
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 1.4vh 4vw;
-    text-decoration: none;
-  }
-  
-  li img {
-    height: 14.24px;
-    width: 32px;
-  }
-    
-    /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #111;
-  }
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #aaaaaa;
+}
