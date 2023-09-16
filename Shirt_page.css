@@ -5,9 +5,20 @@ body, html{
 
 .parallax {
   /* Image */
-  background-image: url(https://clothesbinfranchise.com/wp-content/uploads/2022/07/clothes-recycle.png);
+  background-image: url(https://static.vecteezy.com/system/resources/previews/023/595/723/original/recycling-of-clothes-and-textiles-men-s-clothing-will-be-sent-to-the-trash-can-shirt-jacket-tie-boots-pants-briefs-etc-concept-of-conscious-consumption-reuse-and-donation-vector.jpg);
   /* Set a specific height for the Image */
-  min-height: 100vh;
+  min-height: 94vh;
+}
+
+.quote {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000000;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 75px;
 }
 
   /* Parallax scrolling effect */
@@ -16,10 +27,12 @@ body, html{
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 50%;
+  background-size: cover;
+  opacity: 0.65;
 }
 
   /* Navigation Bar */
+
 ul {
   list-style-type: none;
   margin: 0;
