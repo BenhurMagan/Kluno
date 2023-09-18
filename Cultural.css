@@ -59,3 +59,13 @@ nav ul li a {
 li a:hover {
   background-color: #aaaaaa;
 }
+
+  /* Dropdown */
+
+  .sub-menu{
+    display: none;
+  }
+
+  nav ul li:hover .sub-menu{
+    display: block;
+  }

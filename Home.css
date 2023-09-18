@@ -60,6 +60,16 @@ li a:hover {
   background-color: #aaaaaa;
 }
 
+  /* Dropdown */
+
+  .sub-menu{
+    display: none;
+  }
+
+  nav ul li:hover .sub-menu{
+    display: block;
+  }
+  
 /* Change the link color to #111 (black) on hover */
 
 li a:hover {
