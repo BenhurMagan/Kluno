@@ -66,10 +66,23 @@ li a:hover {
   color: #17252a;
 }
 
+div.background p{
+  padding: 10px 10vw;
+  font-size: 30px;
+  text-align: center;
+}
+
 section{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .client-image{
@@ -78,13 +91,92 @@ section{
   float: left;
 }
 
-section h1{
+section.client-info h1{
   padding-top: 100px;
   font-size: 50px;
 }
 
-section p{
+section.client-info p{
   padding: 10px;
   width: 75vmin;
   font-size: 30px;
+}
+
+section.purposevision h1{
+  padding-top: 50px;
+  font-size: 50px;
+  text-align: center;
+}
+
+section.purposevision p{
+  padding: 10px;
+  width: 75vmin;
+  font-size: 30px;
+  text-align: center;
+}
+
+section.values h1{
+  padding-top: 50px;
+  font-size: 50px;
+  text-align: center;
+}
+
+section.values h2{
+  padding-top: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+
+section.values p{
+  padding: 10px;
+  width: 75vmin;
+  font-size: 30px;
+  text-align: center;
+}
+
+section.values div img {
+  max-width: 200px;
+}
+
+section.reference h1{
+  padding-top: 50px;
+  font-size: 50px;
+  text-align: center;
+}
+
+section.reference p{
+  padding: 10px;
+  width: 75vmin;
+  font-size: 30px;
+  text-align: center;
+}
+
+section.reference div.refodd img {
+  max-width: 200px;
+  float: left;
+  margin: 25px;
+  padding: 0;
+}
+
+section.reference div.refeven img {
+  max-width: 200px;
+  float: right;
+  margin: 25px;
+  padding: 0;
+}
+
+section.reference div.refodd p a{
+  float: left;
+  text-decoration: none;
+  width: 20vh;
+  margin-top: 10vh;
+  margin-right: 10%;
+}
+
+section.reference div.refeven p a{
+  float: right;
+  text-decoration: none;
+  width: 20vh;
+  margin-top: 20vh;
+  margin-right: 10%;
 }
