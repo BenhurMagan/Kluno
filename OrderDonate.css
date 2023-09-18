@@ -23,12 +23,21 @@ nav{
   justify-content: space-between;
 }
 
-nav h1{
-  font-size: 150px;
+.logo{
   float: left;
-  width: 50vh;
+  padding-top: 25px;
+  padding-left: 75px;
+}
+div.logo img{
+  max-width: 100px;
+}
+
+nav h1{
+  font-size: 75px;
+  float: left;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 nav ul li {
@@ -41,6 +50,89 @@ nav ul li a {
   display: block;
   color: black;
   text-align: center;
-  padding: 8vh 5vw;
+  padding: 4vh 5vw;
   text-decoration: none;
+}
+/* Change the link color on hover */
+
+li a:hover {
+  background-color: #aaaaaa;
+}
+
+/* Content */
+
+.background{
+  margin: auto;
+  background-color: white;
+  max-width: 75%;
+  align-items: center;
+}
+
+.heading{
+  text-align: center;
+  font-size: 10vh;
+  color: #17252a;
+}
+
+div.instructions{
+  text-align: left;
+  padding: 0 50px;
+  font-size: 24px;
+  color: #17252a;
+}
+
+div.instructions-order{
+  width: 67%;
+  padding: 25px;
+  background-color: #e9e2d7;
+}
+
+div.instructions-donate{
+  margin-left: 25vw;
+  margin-top: 50px;
+  padding: 25px;
+  background-color: #e9e2d7;
+}
+
+div.contactinfo{
+  margin: 10vh;
+  text-align: center;
+  background-color: #e9e2d7;
+}
+
+div.contactinfo ul{
+  margin-right: 40px;
+}
+
+div.contactinfo ul li{
+  list-style: none;
+}
+
+div.donation{
+  padding: 0 50px;
+  font-size: 24px;
+  color: #17252a;
+  height: 100%;
+  align-items: center;
+}
+
+div.reasondonate{
+  margin-left: 5vw;
+  background-color: #e9e2d7;
+  display: inline-block;
+  padding: 25px;
+  margin-bottom: 50px;
+}
+
+div.donation p{
+  text-align: left;
+  display: inline-block;
+  max-width: 40vw;
+}
+
+div.donation img{
+  display: flex;
+  max-width: 183px;
+  float: right;
+  margin-right: 200px;
 }

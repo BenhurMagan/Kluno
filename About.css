@@ -23,12 +23,22 @@ nav{
   justify-content: space-between;
 }
 
-nav h1{
-  font-size: 150px;
+.logo{
   float: left;
-  width: 50vh;
+  padding-top: 25px;
+  padding-left: 75px;
+}
+
+div.logo img{
+  max-width: 100px;
+}
+
+nav h1{
+  font-size: 75px;
+  float: left;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 nav ul li {
@@ -41,11 +51,11 @@ nav ul li a {
   display: block;
   color: black;
   text-align: center;
-  padding: 8vh 5vw;
+  padding: 4vh 5vw;
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+/* Change the link color on hover */
 
 li a:hover {
   background-color: #aaaaaa;
@@ -66,10 +76,14 @@ li a:hover {
   color: #17252a;
 }
 
-div.background p{
+div.background p.overview{
   padding: 10px 10vw;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 30px;
   text-align: center;
+  max-width: 50vw;
+  background-color: #e9e2d7;
 }
 
 section{
@@ -100,10 +114,11 @@ section.client-info p{
   padding: 10px;
   width: 75vmin;
   font-size: 30px;
+  background-color: #e9e2d7;
 }
 
 section.purposevision h1{
-  padding-top: 50px;
+  padding-top: 25px;
   font-size: 50px;
   text-align: center;
 }
@@ -113,6 +128,7 @@ section.purposevision p{
   width: 75vmin;
   font-size: 30px;
   text-align: center;
+  background-color: #e9e2d7;
 }
 
 section.values h1{
@@ -132,6 +148,7 @@ section.values p{
   width: 75vmin;
   font-size: 30px;
   text-align: center;
+  background-color: #e9e2d7;
 }
 
 section.values div img {
