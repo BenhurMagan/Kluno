@@ -84,6 +84,7 @@ nav ul li:hover .sub-menu ul{
   background-color: white;
   max-width: 75%;
   align-items: center;
+  padding-bottom: 25px;
 }
 
 .heading{
@@ -153,4 +154,20 @@ div.donation img{
   max-width: 183px;
   float: right;
   margin-right: 200px;
+}
+
+div.thanks ul{
+  display: block;
+  padding: 50px;
+  font-size: 24px;
+  max-width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.thanks ul li{
+  display: block;
+  padding: 10px 75px;
+  float: left;
+  background: #e9e2d7;
 }
