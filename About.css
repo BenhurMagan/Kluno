@@ -186,14 +186,14 @@ section.reference p{
   text-align: center;
 }
 
-section.reference div.refodd img {
+section.reference div.refodd img.center{
   max-width: 200px;
   float: left;
   margin: 25px;
   padding: 0;
 }
 
-section.reference div.refeven img {
+section.reference div.refeven img.center{
   max-width: 200px;
   float: right;
   margin: 25px;
@@ -214,4 +214,15 @@ section.reference div.refeven p a{
   width: 20vh;
   margin-top: 20vh;
   margin-right: 10%;
+}
+
+.anime{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 115px;
+  max-width: 200px;
+  float: right;
+  margin: 25px;
 }

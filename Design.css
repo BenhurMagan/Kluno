@@ -1,169 +1,193 @@
 body, html{
-    height: 100%;
-    margin: 0;
-  }
-  
-    /* Navigation Bar */
-  .header{
-    width: 100%;
-    height: 100vh;
-    background-image: url(https://static.vecteezy.com/system/resources/previews/023/595/720/non_2x/recycling-of-clothes-textiles-various-wear-men-s-and-women-s-are-circling-around-the-recycling-icon-illustration-of-the-concept-of-conscious-consumption-reuse-and-donation-vector.jpg);
-    background-position: center;
-    background-size: cover;
-  }
-  
-  nav{
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: #fff;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .logo{
-    float: left;
-    padding-top: 25px;
-    padding-left: 75px;
-  }
-  
-  div.logo img{
-    max-width: 100px;
-  }
-  
-  nav h1{
-    font-size: 75px;
-    float: left;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
-  
-  nav ul li {
-    float: left;
-    list-style: none;
-    color: #fff;
-  }
-  
-  nav ul li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 4vh 5vw;
-    text-decoration: none;
-  }
-  
-  /* Change the link color on hover */
-  
-  li a:hover {
-    background-color: #aaaaaa;
-  }
+  height: 100%;
+  margin: 0;
+}
 
-  /* Dropdown */
+  /* Navigation Bar */
+.header{
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/023/595/720/non_2x/recycling-of-clothes-textiles-various-wear-men-s-and-women-s-are-circling-around-the-recycling-icon-illustration-of-the-concept-of-conscious-consumption-reuse-and-donation-vector.jpg);
+  background-position: center;
+  background-size: cover;
+}
 
-  .sub-menu{
-    display: none;
-  }
+nav{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  align-items: center;
+  justify-content: space-between;
+}
 
-  nav ul li:hover .sub-menu{
-    display: block;
-    position: absolute;
-    margin-top: 0px;
-    background: #fff;
-  }
+.logo{
+  float: left;
+  padding-top: 25px;
+  padding-left: 75px;
+}
 
-  nav ul li:hover .sub-menu ul{
-    display: block;
-    margin-left: -44px;
-    max-width: 13vw;
-  }
+div.logo img{
+  max-width: 100px;
+}
 
-  /* Content */
+nav h1{
+  font-size: 75px;
+  float: left;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  float: left;
+  list-style: none;
+  color: #fff;
+}
+
+nav ul li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 4vh 5vw;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+
+li a:hover {
+  background-color: #aaaaaa;
+}
+
+/* Dropdown */
+
+.sub-menu{
+  display: none;
+}
+
+nav ul li:hover .sub-menu{
+  display: block;
+  position: absolute;
+  margin-top: 0px;
+  background: #fff;
+}
+
+nav ul li:hover .sub-menu ul{
+  display: block;
+  margin-left: -44px;
+  max-width: 13vw;
+}
+
+/* Content */
 
 .background{
-    margin: auto;
-    background-color: white;
-    max-width: 75%;
-    align-items: center;
-    padding-bottom: 50px;
-  }
+  margin: auto;
+  background-color: white;
+  max-width: 75%;
+  align-items: center;
+  padding-bottom: 50px;
+}
   
 .heading{
-    text-align: center;
-    font-size: 10vh;
-    color: #17252a;
+  text-align: center;
+  font-size: 10vh;
+  color: #17252a;
 }
 
 /* Design Categories */
 
 div.design{
-    padding: 0 50px;
-    font-size: 24px;
+  padding: 0 50px;
+  font-size: 24px;
 }
 
 /* Cultural Design */
 
 div.cultural{
-    margin-top: 10vh;
-    margin-left: 15vw;
+  margin-top: 10vh;
+  margin-left: 15vw;
+  display: inline-block;
+  background-color: #e9e2d7;
+  padding: 25px;
 }
 
 div.cultural h1 a{
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 div.cultural h1{
-    max-width: 20vw;
-    text-align: center;
+  max-width: 20vw;
+  text-align: center;
 }
 
 div.cultural p{
-    max-width: 20vw;
-    text-align: left;
+  max-width: 20vw;
+  text-align: left;
+}
+
+div.cultural img{
+  max-width: 20vw;
+  float: right;
 }
 
 /* Anime Images */
 
 div.anime{
-    margin-top: 10vh;
-    margin-left: 15vw;
+  margin-top: 10vh;
+  margin-left: 35vw;
+  display: inline-block;
+  background-color: #e9e2d7;
+  padding: 25px;
 }
 
 div.anime h1 a{
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 div.anime h1{
-    max-width: 20vw;
-    text-align: center;
+  max-width: 20vw;
+  text-align: center;
 }
 
 div.anime p{
-    max-width: 20vw;
-    text-align: left;
+  max-width: 20vw;
+  text-align: left;
+}
+
+div.anime img{
+  max-width: 20vw;
+  float: right;
 }
 
 /* Cartoon Images */
 
 div.cartoons{
-    margin-top: 10vh;
-    margin-left: 15vw;
+  margin-top: 10vh;
+  margin-left: 15vw;
+  display: inline-block;
+  background-color: #e9e2d7;
+  padding: 25px;
 }
 
 div.cartoons h1 a{
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 div.cartoons h1{
-    max-width: 20vw;
-    text-align: center;
+  max-width: 20vw;
+  text-align: center;
 }
 
 div.cartoons p{
-    max-width: 20vw;
-    text-align: left;
+  max-width: 20vw;
+  text-align: left;
+}
+
+div.cartoons img{
+  max-width: 20vw;
+  float: left;
 }
