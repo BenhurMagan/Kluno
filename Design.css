@@ -13,7 +13,6 @@ body, html{
   }
   
   nav{
-    overflow: hidden;
     width: 100%;
     position: fixed;
     top: 0;
@@ -69,6 +68,15 @@ body, html{
 
   nav ul li:hover .sub-menu{
     display: block;
+    position: absolute;
+    margin-top: 0px;
+    background: #fff;
+  }
+
+  nav ul li:hover .sub-menu ul{
+    display: block;
+    margin-left: -44px;
+    max-width: 13vw;
   }
 
   /* Content */

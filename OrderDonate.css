@@ -13,7 +13,6 @@ body, html{
 }
 
 nav{
-  overflow: hidden;
   width: 100%;
   position: fixed;
   top: 0;
@@ -54,20 +53,29 @@ nav ul li a {
   text-decoration: none;
 }
 /* Change the link color on hover */
-
+  
 li a:hover {
   background-color: #aaaaaa;
 }
 
-  /* Dropdown */
+/* Dropdown */
 
-  .sub-menu{
-    display: none;
-  }
+.sub-menu{
+  display: none;
+}
 
-  nav ul li:hover .sub-menu{
-    display: block;
-  }
+nav ul li:hover .sub-menu{
+  display: block;
+  position: absolute;
+  margin-top: 0px;
+  background: #fff;
+}
+
+nav ul li:hover .sub-menu ul{
+  display: block;
+  margin-left: -44px;
+  max-width: 13vw;
+}
 
 /* Content */
 
