@@ -31,6 +31,15 @@ div.logo img{
   max-width: 100px;
 }
 
+.schoollogo{
+  float: left;
+  padding-left: 20vw;
+}
+
+div.schoollogo img{
+  max-width: 100px;
+}
+
 nav h1{
   font-size: 75px;
   float: left;

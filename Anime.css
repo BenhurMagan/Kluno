@@ -27,7 +27,17 @@ nav{
   padding-top: 25px;
   padding-left: 75px;
 }
+
 div.logo img{
+  max-width: 100px;
+}
+
+.schoollogo{
+  float: left;
+  padding-left: 20vw;
+}
+
+div.schoollogo img{
   max-width: 100px;
 }
 
